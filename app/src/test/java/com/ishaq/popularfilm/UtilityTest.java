@@ -15,8 +15,7 @@ public class UtilityTest {
     @Test
     public void formatDateTest(){
 
-
-
+        
         String formatDate= Utility.formatDate("2020-11-19");
         assertEquals("19-11-2020",formatDate);
     }
