@@ -14,4 +14,5 @@
     <color name="itemBackground">#ffffff</color>
     <color name="movieNameTextColor">#F4EEEE</color>
     <color name="movieDetailsTextColor">#7C7C7C</color>
+    <color name="ic_launcher_background">#FCD696</color>
 </resources>
