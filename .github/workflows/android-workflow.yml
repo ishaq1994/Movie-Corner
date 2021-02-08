@@ -15,8 +15,3 @@ jobs:
         run: ls -la
       - name: Unit tests
         run: ./gradlew testDebugUnitTest
-      - name: Upload Reports
-        uses: actions/upload-artifact@v1
-        with:
-         name: reports
-         path: /app
