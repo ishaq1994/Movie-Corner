@@ -272,6 +272,7 @@ public class MainActivity extends AppCompatActivity implements
     @Override
     protected void onDestroy() {
 
+
         super.onDestroy();
         PreferenceManager.getDefaultSharedPreferences(this).unregisterOnSharedPreferenceChangeListener(this);
     }
